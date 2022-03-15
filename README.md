@@ -1,10 +1,8 @@
-# keepcoding-devops-cicd-local-pipelines-template
+# cicd-local-pipelines
 
 Materiales para la impartición del módulo "Ciclo de vida de un desarrollo: CI/CD" del bootcamp DevOps de KeepCoding.
 
-Parte 1 del módulo: Pipelines locales
-
-Este repositorio sirve de plantilla para cada vez que se imparta este módulo.
+Práctica 1 del módulo: Pipelines locales
 
 ## Requisitos
 - make  (Aseguraté de que haciendo `make --version` en tu terminal sale algo así `GNU Make 4.X [...]`)
@@ -14,19 +12,3 @@ Este repositorio sirve de plantilla para cada vez que se imparta este módulo.
 - Tener cuenta en docker hub https://hub.docker.com/
 - Logarse en DockerHub vía consola de comandos con `docker login`
 - Tener cuenta en https://pypi.org/
-
-## Guión
-- Crear aplicación python
-- Crear los tests
-- make build
-- make unit-test
-- Añadir lo de la cobertura
-- make coverage
-- Añadir lo edl paquetizado
-- make package
-- Añadir idempotencia: make clean
-- Preparar la app para publicar
-- make publish
-- Ficheros docker
-- make dockerize
-- make integration test
