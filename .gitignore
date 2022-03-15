@@ -1,0 +1,6 @@
+.history
+*.pyc
+**/.pytest_cache
+**/*egg-info
+**/dist
+.coverage
