@@ -38,7 +38,7 @@ get-dockerhub-username:
 
 dockerize: get-dockerhub-username
 	@echo DOCKERIZE STEP
-	cd docker && docker build -f Dockerfile -t $(DOCKER_IMAGE_NAME):latest .
+	cd docker && docker build -f Dockerfile -t $(DOCKER_USERNAME)/$(DOCKER_IMAGE_NAME):latest .
 
 push:
 	@echo PUSH STEP
