@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
     long_description = readme.read()
 
 setuptools.setup(
-    name="aplicacion-ejemplo-kc-cicd",
+    name="app-example-kc-cicd",
     version="0.0.1",
     author="KC",
     author_email="kcpypitest@gmail.com",
@@ -16,6 +16,7 @@ setuptools.setup(
     python_requires=">=3.9",
     install_requires=[
        'build',
-       'twine'
+       'twine',
+       'coloredlogs'
    ],
 )
